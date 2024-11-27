@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Gabriel Cruces Dias de Oliveira</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        section {
+            padding: 30px;
+            max-width: 1100px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4e54c8;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px; /* Espaço entre os itens */
+        }
+        .projects div {
+            flex: 1 1 calc(33.333% - 20px); /* Três itens por linha */
+            max-width: calc(33.333% - 20px);
+            text-align: center;
+        }
+        .projects img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .projects img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #4e54c8;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gabriel Cruces Dias de Oliveira</h1>
+        <p>Desenvolvedor e Profissional Multidisciplinar</p>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#formacao">Formação</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um profissional dedicado, formado em Análise e Desenvolvimento de Sistemas, com experiência em tecnologia, logística e atendimento. Meu objetivo é crescer profissionalmente enquanto contribuo para o sucesso da organização.</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Acadêmica e Cursos</h2>
+        <ul>
+            <li>Superior Completo: Análise e Desenvolvimento de Sistemas</li>
+            <li>Informática: Pacote Office, Windows e Internet</li>
+            <li>Excel Avançado</li>
+            <li>Manutenção de Celular</li>
+            <li>HTML, Git/GitHub, WordPress, PHP Moderno</li>
+            <li>Inteligência Artificial e Segurança da Informação</li>
+            <li>Banco de Dados MySQL e JavaScript</li>
+            <li>Inglês Básico</li>
+        </ul>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos Recentes</h2>
+        <div class="projects">
+            <div>
+                <h3>TK Guinchos</h3>
+                <img src="tkguincho.jpg" alt="Projeto TK Guinchos">
+            </div>
+            <div>
+                <h3>Cadastro de Usuário</h3>
+                <img src="cadastro.jpg" alt="Projeto Cadastro de Usuário">
+            </div>
+            <div>
+                <h3>JML Alianças</h3>
+                <img src="jmlaliancas.jpg" alt="Projeto JML Alianças">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p><strong>Endereço:</strong> Rua Âncara, nº 110, Parque Vitória, Franco da Rocha – SP</p>
+        <p><strong>Telefone:</strong> (11) 9.5020.5249</p>
+        <p><strong>Email:</strong> gabrielcruces54@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gabriel Cruces Dias de Oliveira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
